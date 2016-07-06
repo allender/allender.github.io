@@ -7,12 +7,12 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Site Title"
+title                    : "The Old Game Programmer"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+name                     : "Mark Allender"
+description              : "Musings from an old game programmer."
+url                      : "https://allender.github.io"
+baseurl                  : #"allender"
 gh_repo                  :
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
@@ -63,11 +63,11 @@ google_ad_slot           :
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Mark Allender"
   avatar           : "bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  bio              : "Veteran game industry programmer"
+  location         : "Champaign, IL"
+  email            : "mark.allender@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
@@ -75,18 +75,18 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "allender"
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : "mallender"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    : #http://stackoverflow.com/users/4405/mark
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : "markallender"
   vine             :
   weibo            :
   xing             :
@@ -170,6 +170,25 @@ whitelist:
   - jekyll-feed
   - jemoji
 
+defaults:
+   -
+      scope:
+         path: ""
+      values:
+         header: 
+            image: "programming-header.jpg"
+            caption: "[**Wallpapers Wide**](http://wallpaperswide.com/programming-wallpapers.html)"
+   # _posts
+   -
+      scope:
+         path: ""
+         type: "posts"
+      values: 
+         layout: single
+         author_profile: true
+         read_time: true
+         comments: false
+  
 
 # Archives
 #  Type
