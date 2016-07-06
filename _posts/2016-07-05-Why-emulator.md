@@ -1,6 +1,7 @@
 ---
 title: "Why an Apple ][ Emulator"
 excerpt: ""
+date: 2016-07-06
 ---
 
 I wanted to write an Apple ][ emulator as a side project to provide me a
