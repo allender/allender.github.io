@@ -26,6 +26,7 @@ I wanted to create the emulator to:
 <li>Do something fun!</li?
 </ul>
 
+{% comment %}
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts }}</h3>
 
 {% for post in paginator.posts %}
@@ -33,3 +34,4 @@ I wanted to create the emulator to:
 {% endfor %}
 
 {% include paginator.html %}
+{% endcomment %}

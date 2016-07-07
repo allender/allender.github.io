@@ -11,7 +11,7 @@ title                    : "The Old Game Programmer"
 title_separator          : "-"
 name                     : "Mark Allender"
 description              : "Musings from an old game programmer."
-url                      : #"https://allender.github.io"
+url                      : "https://allender.github.io"
 baseurl                  : #"allender"
 gh_repo                  :
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -146,12 +146,81 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
+# Collections
+collections:
+  apple2emu:
+    output: true
+    permalink: /:collection/:path/
+  gamedev:
+    output: true
+    permalink: /:collection/:path/
+
+# Defaults
+defaults:
+  # _posts
+  -
+    scope:
+      path: ""
+      type: apple2emu
+    values:
+      layout: single
+      read_time: true
+      comments: false
+      share: false
+      related: true
+      sidebar:
+         nav: "apple2emu"
+
+  # header on all pages
+  -
+    scope:
+      path: ""
+    values:
+      header: 
+        image: "programming-header.jpg"
+        caption: "[**Wallpapers Wide**](http://wallpaperswide.com/programming-wallpapers.html)"
+
+#   # _posts
+#   - scope:
+#      path: ""
+#      type: posts
+#      values:
+#        layout: single
+#        author_profile: true
+#        read_time: true
+#        comments: false
+#        share: true
+#        related: true
+
+  # _pages
+  #- scope:
+  #    path: ""
+  #    type: pages
+  #  values:
+  #    layout: single
+  #    author_profile: true
+  #    read_time: true
+  #    comments: false
+  #    share: true
+  #    related: true
+  # _docs
+  #- scope:
+  #    path: ""
+  #    type: docs
+  #  values:
+  #    layout: single
+  #    read_time: false
+  #    author_profile: false
+  #    share: false
+  #    comments: false
+  #    sidebar:
+  #      nav: "docs"
 
 # Outputting
-permalink: pretty
-paginate: 5 # amount of posts to show
-paginate_path: "/page:num/"
-timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+permalink: /:categories/:title/
+# paginate: 5 # amount of posts to show
+# paginate_path: /page:num/
+timezone: America/Chicago # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
@@ -169,26 +238,6 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-
-defaults:
-   -
-      scope:
-         path: ""
-      values:
-         header: 
-            image: "programming-header.jpg"
-            caption: "[**Wallpapers Wide**](http://wallpaperswide.com/programming-wallpapers.html)"
-   # _posts
-   -
-      scope:
-         path: ""
-         type: "posts"
-      values: 
-         layout: single
-         author_profile: true
-         read_time: true
-         comments: false
-  
 
 # Archives
 #  Type
