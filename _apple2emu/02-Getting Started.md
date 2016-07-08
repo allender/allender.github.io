@@ -15,7 +15,7 @@ original Apple \]\[ is a 6502 processor.  One of the benfits for this project
 for such an old processor is that the instruction set is small (< 256 opcodes).
 The small number of opcodes makes creating the code relatively easy.  
 
-Before getting into detail about writing the CPU emulattion layer, it will 
+Before getting into detail about writing the CPU emulation layer, it will 
 be beneficial to talk about architecture, both of the code and of the machine
 that we are emulating.  I also had to make some decisions on exactly what
 I would emulate and to what degree I would try to achieve "perfect" as
