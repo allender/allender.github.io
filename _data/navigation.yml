@@ -4,14 +4,18 @@ main:
     url: /apple2emu/intro/
 
 apple2emu:
-  - title: Intro
+  -
+    title: Intro
     children:
-      - title: "Introduction"
-        url: /apple2emu/intro/
+    -
+      title: "Introduction"
+      url: /apple2emu/intro/
 
-  - title: New stuff here
+  -
+    title:  Basics
     children:
-      - title: "new stuff to come"
-        url: /docs/configuration/
+    -
+      title: "Getting Started"
+      url: /apple2emu/getting-started/
 
 

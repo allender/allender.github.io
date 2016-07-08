@@ -1,7 +1,7 @@
 ---
 title: "Introduction"
 permalink: /apple2emu/intro/
-excerpt: "Why I decided to write an Apple ][ emulator"
+excerpt: "Why I decided to write an Apple /]/[ emulator"
 date: 2016-07-06
 author_profile: true
 header:
@@ -10,7 +10,7 @@ header:
 
 {% include base_path %}
 
-I wanted to write an Apple ][ emulator as a side project to provide me a
+I wanted to write an Apple /]/[ emulator as a side project to provide me a
 project that I could work on outside of work hours.  Oftentimes I have
 found that while I love game programming, there are a lot of things that I
 __want__ to do, but don't have time to do.  Working on the emulator provides
@@ -41,7 +41,7 @@ but it has worked out well, as I have gotten the benefit of event handling
 My intent here is to provide updates on the project and expand on how/why I
 made certain programming decsisions. By no means is my code the most elegant.
 My goal (as stated above) is to be readable.  Gone are the days of having
-to make an Apple ][ emulator as fast as possible through arcane code
+to make an Apple /]/[ emulator as fast as possible through arcane code
 optimizations.  Modern hardware and compilers will ensure that this current
 emulator won't need a ton of those tricks.
 
